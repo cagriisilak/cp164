@@ -1,0 +1,52 @@
+------------------------------------------------------------
+Testing 'check_parentheses'
+
+check_parentheses("none"): balanced parentheses
+check_parentheses("(x)"): balanced parentheses
+check_parentheses("(("): too many left parentheses
+check_parentheses("))"): too many right parentheses
+check_parentheses("((x)"): too many left parentheses
+check_parentheses("x)x(x"): too many right parentheses
+
+------------------------------------------------------------
+Testing '__eq__'
+
+[], []: source == target: True
+[1, 2, 3], [1, 2, 3]: source == target: True
+[1, 2, 3], [3, 2, 1]: source == target: False
+[1, 2, 3], [1, 2]: source == target: False
+
+------------------------------------------------------------
+Testing 'list_rotate'
+
+list_rotate([0, 1, 2, 3, 4, 5], 0): [0, 1, 2, 3, 4, 5]
+list_rotate([0, 1, 2, 3, 4, 5], 6): [0, 1, 2, 3, 4, 5]
+list_rotate([0, 1, 2, 3, 4, 5], 1): [5, 0, 1, 2, 3, 4]
+list_rotate([0, 1, 2, 3, 4, 5], -1): [1, 2, 3, 4, 5, 0]
+list_rotate([0, 1, 2, 3, 4, 5], 3): [3, 4, 5, 0, 1, 2]
+
+------------------------------------------------------------
+Testing 'list_rotate'
+
+[0, 1, 2, 3, 4, 5]: source.rotate(0): [0, 1, 2, 3, 4, 5]
+[0, 1, 2, 3, 4, 5]: source.rotate(6): [0, 1, 2, 3, 4, 5]
+[0, 1, 2, 3, 4, 5]: source.rotate(1): [5, 0, 1, 2, 3, 4]
+[0, 1, 2, 3, 4, 5]: source.rotate(-1): [1, 2, 3, 4, 5, 0]
+[0, 1, 2, 3, 4, 5]: source.rotate(3): [3, 4, 5, 0, 1, 2]
+
+------------------------------------------------------------
+Testing 'pq_strip_key'
+
+pq_strip_key([5, 4, 1, 0, 3, 2], 6): [0, 1, 2, 3, 4, 5]
+pq_strip_key([5, 4, 1, 0, 3, 2], 0): [0]
+pq_strip_key([5, 4, 1, 0, 3, 2], -1): []
+pq_strip_key([5, 4, 1, 0, 3, 2], 2): [0, 1, 2]
+
+------------------------------------------------------------
+Testing 'strip_key'
+
+[0, 5, 1, 3, 4, 2]: source.strip_key(6): [0, 5, 1, 3, 4, 2]
+[0, 5, 1, 3, 4, 2]: source.strip_key(0): [0]
+[0, 5, 1, 3, 4, 2]: source.strip_key(-1): []
+[0, 5, 1, 3, 4, 2]: source.strip_key(2): [0, 1, 2]
+
