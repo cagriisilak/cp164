@@ -1,0 +1,172 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Cagri
+ID:      210764050
+Email:   isil4050@mylaurier.ca
+Version: 2022-9-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46
+Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   229
+Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   850
+Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140
+Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143
+Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   226
+Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Calories:   251
+Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   231
+Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Calories:   516
+Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Calories:   425
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+807
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+138
+# for origin = 3
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+Butter Chicken                      Indian            False      490
+Moo Goo Guy Pan                     Chinese           False      272
+Vegetable Alicha                    Ethiopian          True      138
+Spanakopita                         Greek              True      260
+Chirashi Don                        Japanese          False      600
+Canuck Burger                       Canadian          False     7500
+Turducken                           American          False    12240
+Shark Fin Soup                      Chinese           False       46
+Chamuco                             Mexican            True      150
+Natto                               Japanese           True      212
+Canada Goose Chili                  Canadian          False      199
+Diet Free-Range Gluten-free Water   American           True        0
+Kung Pao Chicken                    Chinese           False      229
+General Tao Chicken                 Chinese           False      850
+Spicy Vegetable Moo Shu             Chinese            True      140
+BBQ Pork                            Chinese           False      920
+Orange Chicken                      Chinese           False      800
+Vegetables with Cashew Nuts         Chinese            True      143
+Lemon Chicken                       Chinese           False      226
+Beef with Green Pepper              Chinese           False      251
+Sweet and Sour Pork                 Chinese           False      231
+Szechuan Shrimp                     Chinese           False      516
+Poutine                             Canadian          False      710
+Teppanyaki                          Japanese          False      200
+Greek Salad                         Greek              True      185
+Fettuccine                          Italian           False      266
+Teriyaki                            Japanese          False      233
+Shortbread                          Scottish           True      502
+Pavlova                             New Zealand        True      272
+Hokey Pokey Ice Cream               New Zealand        True      106
+Fricot                              Canadian          False      360
+Chip Butty                          English            True      956
+Grilled Salmon                      Canadian          False      511
+Ravioli                             Italian           False      246
+Crepe                               Italian            True      186
+Fried Rice                          Chinese           False      425
+Pepperoni Pizza                     Italian           False      713
+Chicken Kabob                       Indian            False      167
+Panzerotti                          Italian           False      770
+Spring Rolls                        Chinese            True      200
+Chicken Chow Mein                   Chinese           False      178
+Chicken Wings                       American          False      298
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46
+Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+
+-------------------------------------------------------
+t09
+-------------------------------------------------------
+
+-------------------------------------------------------
